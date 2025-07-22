@@ -1,3 +1,46 @@
+# 🔐 FraudScope: Financial Fraud Intelligence Dashboard
+
+A comprehensive Power BI dashboard designed to detect, analyze, and visualize financial fraud trends across global transactions using interactive visualizations and KPI metrics.
+
+## 📁 Repository Contents
+📦FraudScope-Financial-Fraud-Intelligence
+┣ 📄 README.md
+┣ 📄 FraudScope.pbix
+┗ 📁 screenshots/
+┣ 📄 dashboard.png
+┣ 📄 fraud_tree.png
+┣ 📄 customers.png
+┣ 📄 device.png
+┣ 📄 methods.png
+┗ 📄 accounts.png
+---
+
+## 🛠 Technologies Used
+
+- **Power BI Desktop**
+- **Power Query** (for cleaning & transforming data)
+- **DAX** (KPI & time intelligence)
+- **Custom Visuals:**
+  - Decomposition Tree
+  - Donut KPI cards
+  - Heatmaps, Line charts, Treemaps, Bing Maps
+- **Interactive Filters & Drillthrough**
+
+---
+
+## 📊 Dataset Summary
+
+| Field             | Description                                       |
+|------------------|---------------------------------------------------|
+| `Customer ID`     | Unique ID for each transaction                   |
+| `Transaction Amt` | Value transferred                                |
+| `Account Type`    | Savings / Current                                |
+| `isFraud`         | Binary flag for fraud                            |
+| `UnusualLogin`    | Count of logins that triggered alerts            |
+| `Method`          | CASH_IN, DEBIT, TRANSFER, etc.                   |
+| `Time of Day`     | Morning / Afternoon / Night                      |
+| `Day of Week`     | Used to derive temporal patterns                 |
+| `Country/Branch`  | Geographical origin of transaction               |
 
 ---
 
@@ -8,6 +51,16 @@ FraudScope is a dynamic financial fraud intelligence dashboard that helps fraud 
 - Analyze customer behavior, device patterns, and fraud peaks
 - Reduce false positives through contextual filters and unusual login indicators
 - Take preventive actions using data-driven insights
+
+---
+
+## 📂 How to Run
+
+1. Clone/download this repository
+2. Open `FraudScope.pbix` in Power BI Desktop
+3. Use filters like:
+   - `Status`, `Acc Holder`, `Date`, `Method`, `Time of Day`
+4. Click through each page to analyze fraud patterns interactively
 
 ---
 
@@ -164,64 +217,6 @@ Deep dive into how account types influence fraud patterns:
 
 ---
 
-## 🛠 Technologies Used
-
-- **Power BI Desktop**
-- **Power Query** (for cleaning & transforming data)
-- **DAX** (KPI & time intelligence)
-- **Custom Visuals:**
-  - Decomposition Tree
-  - Donut KPI cards
-  - Heatmaps, Line charts, Treemaps, Bing Maps
-- **Interactive Filters & Drillthrough**
-
----
-
-## 📊 Dataset Summary
-
-| Field             | Description                                       |
-|------------------|---------------------------------------------------|
-| `Customer ID`     | Unique ID for each transaction                   |
-| `Transaction Amt` | Value transferred                                |
-| `Account Type`    | Savings / Current                                |
-| `isFraud`         | Binary flag for fraud                            |
-| `UnusualLogin`    | Count of logins that triggered alerts            |
-| `Method`          | CASH_IN, DEBIT, TRANSFER, etc.                   |
-| `Time of Day`     | Morning / Afternoon / Night                      |
-| `Day of Week`     | Used to derive temporal patterns                 |
-| `Country/Branch`  | Geographical origin of transaction               |
-
----
-
-# 🔐 FraudScope: Financial Fraud Intelligence Dashboard
-
-A comprehensive Power BI dashboard designed to detect, analyze, and visualize financial fraud trends across global transactions using interactive visualizations and KPI metrics.
-
-
----
-
-## 📁 Repository Contents
-📦FraudScope-Financial-Fraud-Intelligence
-┣ 📄 README.md
-┣ 📄 FraudScope.pbix
-┗ 📁 screenshots/
-┣ 📄 dashboard.png
-┣ 📄 fraud_tree.png
-┣ 📄 customers.png
-┣ 📄 device.png
-┣ 📄 methods.png
-┗ 📄 accounts.png
-
-
-## 📂 How to Run
-
-1. Clone/download this repository
-2. Open `FraudScope.pbix` in Power BI Desktop
-3. Use filters like:
-   - `Status`, `Acc Holder`, `Date`, `Method`, `Time of Day`
-4. Click through each page to analyze fraud patterns interactively
-
----
 
 ## 📌 Key Insights Summary
 
