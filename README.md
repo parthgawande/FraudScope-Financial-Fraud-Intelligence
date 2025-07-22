@@ -218,7 +218,6 @@ Deep dive into how account types influence fraud patterns:
 ## 👨‍💻 Author
 
 **Parth Gawande**  
-🎓 M.S. Data Science, RIT  
 🔗 [LinkedIn](https://www.linkedin.com/in/parthgawande)  
 🌐 [Portfolio](https://parthgawande.github.io/Portfolio)
 
