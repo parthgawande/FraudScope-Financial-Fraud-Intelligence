@@ -2,19 +2,6 @@
 
 A comprehensive Power BI dashboard designed to detect, analyze, and visualize financial fraud trends across global transactions using interactive visualizations and KPI metrics.
 
-## 📁 Repository Contents
-📦FraudScope-Financial-Fraud-Intelligence
-┣ 📄 README.md
-┣ 📄 FraudScope.pbix
-┗ 📁 screenshots/
-┣ 📄 dashboard.png
-┣ 📄 fraud_tree.png
-┣ 📄 customers.png
-┣ 📄 device.png
-┣ 📄 methods.png
-┗ 📄 accounts.png
----
-
 ## 🛠 Technologies Used
 
 - **Power BI Desktop**
